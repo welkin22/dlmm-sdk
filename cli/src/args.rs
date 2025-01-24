@@ -120,6 +120,7 @@ pub enum DLMMCommand {
     DecreasePositionLength(DecreasePositionLengthParams),
     MigratePositionToV3(MigratePositionV3Params),
     DownloadUserPoolFiles(DownloadUserPoolFilesParams),
+    ExportProtocolFeeCsv(ExportProtocolFeeParams),
     #[clap(flatten)]
     Admin(AdminCommand),
 }

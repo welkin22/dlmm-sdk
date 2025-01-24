@@ -3658,6 +3658,7 @@ export class DLMM {
       }
     }
 
+    // TODO: Claim and withdraw 70 bins
     const resizePositionIx = await this.program.methods
       .decreasePositionLength(lengthToReduce.toNumber(), side)
       .accounts({
